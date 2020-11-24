@@ -1,0 +1,25 @@
+// abstract
+@import  'abstracts/variables';
+@import  'abstracts/functions';
+@import  'abstracts/mixins';
+
+@import  'variables/reset';
+@import  'abstracs/tipografia';
+
+@import  'base/botones';
+
+
+
+@import  'layaout/footer';
+@import  'layaout/forms';
+@import  'layaout/grid';
+@import  'layaout/header';
+@import  'layaout/navegador';
+@import  'layaout/sidebar';
+
+
+@import  'pages/blog';
+@import  'pages/galeria';
+@import  'pages/index';
+
+

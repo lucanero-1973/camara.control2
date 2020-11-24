@@ -1,0 +1,30 @@
+include ..config/config
+
+<!DOCTYPE html>
+html(lang="es")
+    //- HEAD
+    head
+    block head
+       include head.pug
+
+    body
+            //HEADER
+        header.header
+            include header.pug
+            // se hace block a los hijos de header
+
+            //ASIDE
+        main.main
+            include aside.pug
+            block aside
+
+            //MAIN (ha main no se hace include)
+        main.main
+            block main
+
+
+
+            //FOOTER
+        footer.footer
+            include footer.pug
+            block footer
