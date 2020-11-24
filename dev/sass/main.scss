@@ -1,25 +1,24 @@
-// abstract
-@import  'abstracts/variables';
-@import  'abstracts/functions';
-@import  'abstracts/mixins';
+// ABSTRACT
+@import 'abstrac/functions';
+@import 'abstrac/variables';
 
-@import  'variables/reset';
-@import  'abstracs/tipografia';
+// BASE
+@import  'base/reset';
+@import  'base/tipografia';
+// COMPONENTES
+@import 'componentes/botones';
 
-@import  'base/botones';
 
-
-
-@import  'layaout/footer';
-@import  'layaout/forms';
-@import  'layaout/grid';
+// LAYAOUT
+@import 'layaout/footer';
+@import  'layaout/section2';
+@import  'layaout/grids';
 @import  'layaout/header';
 @import  'layaout/navegador';
-@import  'layaout/sidebar';
+@import  'layaout/section1';
+@import 'layaout/section3'
 
 
-@import  'pages/blog';
-@import  'pages/galeria';
-@import  'pages/index';
+
 
 

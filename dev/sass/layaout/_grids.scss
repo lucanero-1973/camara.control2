@@ -1,0 +1,42 @@
+/* ******************************** */
+/* ******************************** */
+/* GRIDS */
+/* ******************************** */
+/* ******************************** */
+/* ******************************** */
+//- grid para seccion1
+.section__sect{
+    display: grid;
+    grid-template: {
+        columns: 80px 100px 250px 0.5fr 1fr;
+        rows: 200px 100px 100px 50px 200px; 
+    }
+}
+//- grid para  seccion2
+.section__segundo{
+    display: grid;
+    grid-template: {
+        columns: 80px 100px 0.5fr 1fr 100px 0.5fr 50px;
+        rows: 100px 150px 50px 150px 50px 150px 80px;
+    };
+}
+//- grid para  seccion3
+.section__tercero{
+    grid-column: 1/4;
+    display: grid;
+    grid-template: {
+        columns: 80px 0.6fr 80px 1fr 100px;
+        rows: 100px 1fr 80px;
+    }; 
+}
+
+//-grid para footer
+.footer{
+
+    display: grid;
+    grid-template: {
+        columns: 150px 80px 80px 100px 80px 80px 300px;
+        rows: 80px repeat(7, 0.5fr) 150px 100px 100px 80px;
+    };
+}
+

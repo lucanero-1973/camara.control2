@@ -1,0 +1,21 @@
+/* ******************************** */
+/* ******************************** */
+/* HEADER */
+/* ******************************** */
+/* ******************************** */
+/* ******************************** */
+//- estilos para el navegador , display flex
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .header__menu {
+        a{
+            margin: 10px;
+            text-decoration: none;
+            color: $color-negro;
+            font-size: $font-size-navegador;
+        }
+    }
+}

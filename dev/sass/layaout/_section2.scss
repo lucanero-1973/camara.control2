@@ -1,0 +1,68 @@
+/* ******************************** */
+/* ******************************** */
+/* SECTION2 */
+/* ******************************** */
+/* ******************************** */
+/* ******************************** */
+.section__segundo{
+    background-color: $color-section2;
+    @extend .section__segundo
+}
+.segundo__opc1{
+  grid-column: 2/4;
+  grid-row: 3/5;
+}
+.opc1__titulo1{
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+.opc1__parrafo1{
+  grid-column:2/4;
+  grid-row: 4/5;
+}
+.segundo__opc2{
+  grid-column: 2/4;
+  grid-column: 5/7;
+}
+.opc2__titulo2{
+  grid-column: 2/3;
+  grid-row: 5/6;
+
+}
+.opc2__parrafo2{
+  grid-column: 2/4;
+  grid-row: 5/7;
+
+}
+.segundo__opc3{
+  grid-column: 5/7;
+  grid-row: 3/5;
+}
+.opc3__titulo3{
+  grid-column: 5/6;
+  grid-row: 3/4;
+}
+.opc3__parrafo3{
+  grid-column: 5/7;
+  grid-row: 4/5;
+}
+.segundo__opc4{
+  grid-column: 5/7;
+  grid-row: 5/6;
+}
+.opc4__titulo4{
+  grid-column: 5/6;
+  grid-row: 5/76;
+}
+.opc4__parrafo4{
+  grid-column: 5/7;
+  grid-row: 6/7;
+
+}
+.segundo__camara2{
+  grid-column: 4/5;
+  grid-row: 2/6;
+
+  justify-self: center;
+  align-self: center;
+}

@@ -1,0 +1,31 @@
+/* ******************************** */
+/* ******************************** */
+/* BOTONES */
+/* ******************************** */
+/* ******************************** */
+/* ********************************/
+
+.boton{
+    color:$color-header;
+    background-color:$color-orange;
+    padding: convertir(18);
+    text-decoration: none;
+}
+.sect__boton{
+    
+    @extend .boton;
+}
+.header__contactar {
+    @extend .boton
+}
+
+.input__boton{
+    grid-column: 6/7;
+    border-radius: convertir(10);
+    @extend .boton
+}
+.input__primero{
+    grid-column: 11/12;
+    grid-row: 4/5;
+    padding: convertir(18);
+} 

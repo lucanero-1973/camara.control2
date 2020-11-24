@@ -1,30 +1,25 @@
-include ..config/config
-
-<!DOCTYPE html>
+//-VARIABLES
+include ../config/config
 html(lang="es")
-    //- HEAD
     head
-    block head
-       include head.pug
-
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Control 2
+        link(rel="stylesheet", href="css/main.css")
     body
-            //HEADER
-        header.header
-            include header.pug
-            // se hace block a los hijos de header
+            header.header: include header
 
-            //ASIDE
-        main.main
-            include aside.pug
-            block aside
+            section.section__sect: include section1
+                //figure.camara1
+                    block camara1
+                        img.camara1__imagen(src="../assets/img/desktop/camara1.svg", alt="")
+            section.section__segundo: include section2
+                //figure.camara2
+                    block camara2
+                        img.camara3__imagen(src="../assets/img/desktop/camara2.png", alt="")
+            section.section__tercero: include section3
+                //figure.camara3
+                    block camara3
+                        img.camara3__imagen(src="../assets/img/desktop/camara3.png", alt="")
 
-            //MAIN (ha main no se hace include)
-        main.main
-            block main
-
-
-
-            //FOOTER
-        footer.footer
-            include footer.pug
-            block footer
+            footer.footer: include footer
